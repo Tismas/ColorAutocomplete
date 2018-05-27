@@ -1,0 +1,33 @@
+.autosuggest-wrapper {
+    z-index: 1;
+}
+
+.autosuggest-input {
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    outline: none;
+}
+
+.autosuggest-suggestions-container {
+    background-color: white;
+    border-radius: 0 0 5px 5px;
+    border: 1px solid $secondary-color;
+}
+
+.autosuggest-suggestion {
+    font-size: 20px;
+    padding: 10px 0;
+    border-top: 1px solid $secondary-color;
+    text-align: center;
+
+    &:hover {
+        background-color: $secondary-color;
+        cursor: pointer;
+    }
+}
+
+.no-bottom-border-radius {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}

@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`With empty input 1`] = `
+<div
+  className="autosuggest-wrapper"
+>
+  <input
+    className="autosuggest-input "
+    onChange={[Function]}
+    value=""
+  />
+</div>
+`;
+
+exports[`With not empty input and no possible suggestions 1`] = `
+<div
+  className="autosuggest-wrapper"
+>
+  <input
+    className="autosuggest-input "
+    onChange={[Function]}
+    value="Szy"
+  />
+</div>
+`;
+
+exports[`With not empty input and possible suggestions 1`] = `
+<div
+  className="autosuggest-wrapper"
+>
+  <input
+    className="autosuggest-input no-bottom-border-radius"
+    onChange={[Function]}
+    value="Ad"
+  />
+  <div
+    className="autosuggest-suggestions-container"
+  >
+    <div
+      className="autosuggest-suggestion"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <span>
+        
+      </span>
+      <b>
+        Ad
+      </b>
+      <span>
+        am
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`With not empty input and possible suggestions 2`] = `
+<div
+  className="autosuggest-wrapper"
+>
+  <input
+    className="autosuggest-input no-bottom-border-radius"
+    onChange={[Function]}
+    value="ij"
+  />
+  <div
+    className="autosuggest-suggestions-container"
+  >
+    <div
+      className="autosuggest-suggestion"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <span>
+        S
+      </span>
+      <b>
+        ij
+      </b>
+      <span>
+        a
+      </span>
+    </div>
+  </div>
+</div>
+`;

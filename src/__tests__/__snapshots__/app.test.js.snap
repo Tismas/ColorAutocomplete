@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render of the whole app 1`] = `
+<div
+  className="bg"
+>
+  <div
+    className="bg-overlay"
+    style={
+      Object {
+        "--background-overlay-color": "#fff",
+        "opacity": 0.8,
+      }
+    }
+  />
+  <div
+    className="input-container"
+  >
+    <div
+      className="autosuggest-wrapper"
+    >
+      <input
+        className="autosuggest-input "
+        onChange={[Function]}
+        value=""
+      />
+    </div>
+    <button
+      className="accept-button"
+      onClick={[Function]}
+    >
+       Accept 
+    </button>
+  </div>
+</div>
+`;
